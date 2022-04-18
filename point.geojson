@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2100" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 201, "name": "Πηγή", "code": "1005" }, "geometry": { "type": "Point", "coordinates": [ 572308.091842977562919, 4195431.096585906110704 ] } },
+{ "type": "Feature", "properties": { "id": 205, "name": "Αρχαιολογικός χώρος", "code": "502" }, "geometry": { "type": "Point", "coordinates": [ 574745.707830558530986, 4187787.724421456456184 ] } }
+]
+}

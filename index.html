@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset='utf-8' /> 
+	<title>Χαρτογραφική εφαρμογή Ν.Άνδρος</title>	
+  
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+		
+	<script type='text/javascript' src='OpenLayers.js'></script>
+	<script type="text/javascript" src="proj4js-compressed.js"></script>
+	<script type='text/javascript' src='geo.js'></script>
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
+	
+   
+</head>
+
+<body onload='init();'>	
+	<div id="main" name="main">
+	
+		<div id="menu" name="menu">
+
+			<div id="accordion">
+			  
+			  <!-- ==================================================================== -->
+			  <h3><b>ΝΗΣΟΣ ΑΝΔΡΟΣ</b></h3>
+			  <div>
+                 <p style="font-size:85%;"
+				  style="text-align:center;">
+					ΑΠΟΔΟΣΗ ΑΝΑΓΛΥΦΟΥ ΜΕ ΦΩΤΟΣΚΙΑΣΗ <br> ΚΛΙΜΑΚΑ <b>1:250000 </b></br>
+				</p>
+				
+				<p style="font-size:85%;"
+				  style="text-align:center;">
+					ΑΠΟΔΟΣΗ ΑΝΑΓΛΥΦΟΥ ΜΕ ΥΨΟΜΕΤΡΙΚΕΣ ΚΑΜΠΥΛΕΣ <br> ΚΛΙΜΑΚΑ <b>1:150000</b> ΚΑΙ <b>1:50000 </b></br>
+					
+			     <p style="font-size:80%;"
+			      style="text-align:left;"> <br> ΕΓΚΑΡΣΙΑ ΜΕΡΚΑΤΟΡΙΚΗ ΠΡΟΒΟΛΗ</br>
+
+				 <be> ΣΥΣΤΗΜΑ ΑΝΑΦΟΡΑΣ: </br><b>ΕΓΣΑ 1987</b>
+				 </p> 
+                <p style="font-size:75%;"
+				   style="text-align:left;">
+				 <br>ΧΑΡΤΟΣΥΝΘΕΣΗ: ΕΡΙΟΛΑ ΙΜΠΕΡΣΙΜΗ </br> <br><i>ΨΗΦΙΑΚΗ ΤΕΧΝΟΛΟΓΙΑ ΚΑΙ ΧΑΡΤΟΓΡΑΦΙΚΗ ΠΑΡΑΓΩΓΗ</i> </br><br>ΔΠΜΣ ΓΕΩΠΛΗΡΟΦΟΡΙΚΗ</br>
+				 
+				</div>
+			  
+			  <!-- ==================================================================== -->
+			  <h3>Γενικές Πληροφορίες</h3>
+			  <div>
+				<p style="font-size:70%;">
+					Η Άνδρος είναι νήσος στο Αιγαίο πέλαγος, νοτιοανατολικά της Εύβοιας. Είναι το βορειότερο νησί των Κυκλάδων και το δεύτερο μεγαλύτερο σε έκταση, μετά τη Νάξο. Εκτείνεται από βορειοδυτικά προς τα νοτιοανατολικά, καταλαμβάνοντας έκταση 381 τ. χλμ. Έχει πληθυσμό 9.170 κατοίκων. Πρωτεύουσα του νησιού είναι η Άνδρος ή Χώρα, ενώ το λιμάνι του είναι το Γαύριο. Η Άνδρος συνδέεται με την ηπειρωτική Ελλάδα ακτοπλοϊκώς μέσω της Ραφήνας. <br>  
+                                        </p> 
+                                        <img src="andros.jpg" alt="Η Χώρα Άνδρου" width="180" height="150"> </br>
+				</p>
+			  </div>
+                    <!-- ==================================================================== -->
+			  <h3>Διάγραμμα Θέσης</h3>
+                       <div>
+			  <br>  <img src="diagramma.png" alt="Διάγραμμα Θέσης" width="230" height="200"> </br>
+				 
+				</div>
+			  <!-- ==================================================================== -->	
+			 <h3>Λήψη Πληροφοριών</h3>
+			 <div>
+			 <p>Click  on the map to get more information.</p>
+				 <div id="summaryLabel">
+					<p>Information.</p>
+			  </div>
+		      </div>
+			 <h3>Αναζήτηση</h3>
+			  <div>
+				<p>
+					<!--label text with text CQL-->
+						<label for="filter">Add a CQL statement e.g. name='Value'</label> 
+					<!--input object-type(text) that permits to type text -->	
+						<input id="filter" type="text" value="">
+					<!--input object-type(submit(button)) that uses the onclick property to call the updateFilter function-->
+						<input type="submit" value="apply CQL" onclick="updateFilter()">				 
+			  </div>
+			  
+			  <!-- ==================================================================== -->
+			  <h3>Τραπεζικά Καταστήματα και ΑΤΜ</h3>
+			  <div>
+				<p style="font-size:70%;"
+				  style="text-align:center;">Στο νησί της Άνδρου υπάρχουν έξι τραπεζικά καταστήματα και τέσσερα ΑΤΜ χωροθετημένα σε τρεις διαφορετικούς οικισμούς του νησιού.  <a href="http://www.ypeka.gr/Default.aspx?tabid=249"><b style="color:blue;"></b></a> 
+ 
+			  </div>
+			  
+			  <!-- ==================================================================== -->
+			   <h3>ΥΠΟΜΝΗΜΑ</h3>
+				<div>
+					<div id="accordion1" name="accordion1" style="width:100%; height:auto;"><!-- Pinakas ypomnhmatos -->
+				
+						<table class="legend">
+							<tbody>
+								
+						<p style="font-size:85%;"
+				  style="text-align:left;">
+			  <br>  <img src="ipomnima.png" alt="Υπόμνημα" width="230" height="250"> </br>
+				 
+								
+							
+								
+							
+								
+							</tbody>
+						</table>						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="xartis" name="xartis"></div>
+		
+	</div>
+	
+	
+</body>
+</html>

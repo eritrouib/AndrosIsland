@@ -1,0 +1,86 @@
+#main
+{
+	height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+	min-height: 530px;
+}
+
+#menu
+{
+position:absolute;
+top:0px;
+left:0px;
+bottom:0px;
+margin-left:0px;
+margin-top:0px;
+background-color: #ffffcc;
+width:310px;
+float:left;
+display:block;
+overflow:auto;
+height:100%
+}
+
+
+
+#xartis
+{
+/*Standard */
+width: calc(100% - 316px) !important;
+width:82%;
+/* Firefox */
+width: -moz-calc(100% - 316px) !important;
+/* WebKit */
+width: -webkit-calc(100% - 316px) !important;
+/* Opera */
+width: -o-calc(100% - 316px) !important;
+width:82%;
+min-width: 900px;
+min-height:20%;
+height:auto;
+position:absolute;
+top:0px;
+float:left;
+left:310px;
+bottom:0px;
+margin-left:0px;
+margin-top:0px;
+background-color:#99ccff;
+border: 2px black;
+z-index:100;
+}
+
+.legend
+{
+    width:100%;
+    table-layout: fixed;
+}
+
+.legend td
+{
+    color:#162837;
+    font-size:10px;
+    text-align:left;
+    padding-bottom:3px;
+}
+
+.legend_cb
+{
+    width:20px;
+}
+
+.legend_img
+{
+    width:20px;
+}
+
+.legend_title
+{
+    width:90px;
+    text-align:left;
+}

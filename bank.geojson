@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "bank",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2100" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Name": "Pireaus Bank", "Όνομα": "Τράπεζα Πειραιώς", "Type": "Bank", "Plus_Code": "RWQQ+4P Άνδρος", "Address": "Γ.Εμπειρίκου, Άνδρος 845 00" }, "geometry": { "type": "Point", "coordinates": [ 582434.579, 4187844.1281 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "Name": "Efg EuroBank Ergasias", "Όνομα": "Τράπεζα Eurobank", "Type": "Bank", "Plus_Code": "RWQQ+3H Άνδρος", "Address": "Empirikou ke 25is Matiou, Andros 845 00" }, "geometry": { "type": "Point", "coordinates": [ 582355.2039, 4187832.221799999475 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "Name": "National Bank of Greece", "Όνομα": "Εθνική Τράπεζα της Ελλάδος", "Type": "Bank", "Plus_Code": "RWQQ+3F Άνδρος", "Address": "Εμπειρίκου 53, Άνδρος 845 00" }, "geometry": { "type": "Point", "coordinates": [ 582343.297600000165403, 4187793.32799999975 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "Name": "Alpha Bank", "Όνομα": "Alpha Τράπεζα", "Type": "Bank", "Plus_Code": "RWPQ+V3 Άνδρος", "Address": "Georgiou Empirikou 40, Andros 845 00" }, "geometry": { "type": "Point", "coordinates": [ 582290.1162, 4187736.177899999544 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "Name": "National Bank of Greece", "Όνομα": "Εθνική Τράπεζα της Ελλάδος", "Type": "Bank", "Plus_Code": "VQ4P+C6 Μπατσί, Υδρούσα", "Address": "Μπατσί 845 01" }, "geometry": { "type": "Point", "coordinates": [ 568967.759499999694526, 4189842.97499999963 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "Name": "Pireaus Bank", "Όνομα": "Τράπεζα Πειραιώς", "Type": "Bank", "Plus_Code": "VPMP+QM Δήμος Υδρούσας, Υδρούσ", "Address": "Ε, Βασ. Ι. Γουλανδρή Άνδρος - Δ, Δήμος Υδρούσας 845 01" }, "geometry": { "type": "Point", "coordinates": [ 564627.790400000289083, 4192889.323 ] } }
+]
+}

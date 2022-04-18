@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "atm",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2100" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 5, "Name": "ATM Pireaus Bank", "Όνομα": "ATM Τράπεζας Πειραιώς", "Type": "ATM", "Plus_Code": "VQ4P+96 Μπατσί, Υδρούσα", "Address": "Μπατσί 845 00" }, "geometry": { "type": "Point", "coordinates": [ 568954.265700000338256, 4189831.0687 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "Name": "ATM Alpha Bank", "Όνομα": "ATM Alpha Τράπεζας", "Type": "ATM", "Plus_Code": "VQ4P+F7 Μπατσί, Υδρούσα", "Address": "Unnamed Road, Μπατσί 845 01" }, "geometry": { "type": "Point", "coordinates": [ 568989.9846, 4189874.725099999458 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "Name": "ATM National Bank", "Όνομα": "ΑΤΜ Εθνικής Τράπεζας", "Type": "ATM", "Plus_Code": "VPMP+CJ Γαύριο, Υδρούσα", "Address": "Άνδρος 845 01" }, "geometry": { "type": "Point", "coordinates": [ 564605.829900000244379, 4192821.48369999975 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "Name": "Efg EuroBank Ergasias", "Όνομα": "ΑΤΜ Eurobank Τράπεζας", "Type": "ATM", "Plus_Code": "VPMP+9C Γαύριο, Υδρούσα", "Address": "Άνδρος 845 01" }, "geometry": { "type": "Point", "coordinates": [ 564571.698699999600649, 4192800.4228 ] } }
+]
+}
